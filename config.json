@@ -17,7 +17,7 @@
     "randomx": {
         "init": -1,
         "init-avx2": -1,
-        "mode": "auto",
+        "mode": "fast",
         "1gb-pages": false,
         "rdmsr": true,
         "wrmsr": true,
@@ -60,10 +60,10 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "algo": "rx/0",
+            "coin": "XMR",
+            "url": "xmr-us-east1.nanopool.org:10300",
+            "user": "8B4Q7CkvVdb2fQKerx6Ggc8J1bGkCiwaiB2yGKPkYPvFY8hRpdaq2vt3naH5fcZfTGXrNDmPdyEyxPZ4f3GeETryS6EvBJR",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
